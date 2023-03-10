@@ -36,6 +36,12 @@ a {
 main > section {
     margin-bottom: 3rem;
 }
-main > section > h2 ~ p strong {
+main > section > h2 ~ p:first-of-type strong {
     color: purple;
+}
+li:nth-child(2) {
+    color: purple
+}
+dl > div:last-child {
+    background-color: #ccc;
 }
